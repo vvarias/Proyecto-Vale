@@ -1,0 +1,60 @@
+/* Archivo Artistas.css */
+
+.artistas-container {
+    padding: 20px;
+    background-color: #e8f4fc;
+    text-align: center;
+    margin-top: 10px; 
+  }
+  
+  .artistas-title {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .artistas-subtitle {
+    font-size: 1.2rem;
+    color: #005792;
+    margin-bottom: 30px;
+  }
+  
+  .artistas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .artista-card {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .artista-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .artista-name {
+    font-size: 1.5rem;
+    color: #002244;
+    margin-bottom: 10px;
+  }
+  
+  .artista-description {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.5;
+  }
+  body {
+    margin-bottom: 5px; 
+  }
+  

@@ -1,0 +1,60 @@
+.contactos-container {
+    padding: 20px;
+    background-color: #e8f4fc;
+    margin-top: 20px; 
+    text-align: left;
+  }
+  
+  .contactos-title {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .contactos-subtitle {
+    font-size: 1.2rem;
+    color: #005792;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .contactos-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .contactos-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contacto-item {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contacto-item i {
+    font-size: 1.5rem;
+    color: #005792;
+  }
+  
+  .contactos-image-container {
+    flex: 1;
+    text-align: center;
+    min-width: 250px; 
+  }
+  
+  .contactos-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
