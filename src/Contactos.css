@@ -2,7 +2,9 @@
     padding: 20px;
     background-color: #e8f4fc;
     margin-top: 20px; 
-    text-align: left;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
   }
   
   .contactos-title {
